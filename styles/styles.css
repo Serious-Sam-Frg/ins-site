@@ -4931,3 +4931,6 @@ p {
 }
 .site-brands__item {
 }
+.site-brands__item img {
+    height: 140px;
+}
