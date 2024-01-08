@@ -54,8 +54,8 @@
 /*** Start css of #_lp_block_11351402[data-block-layout='1611861'] .lp-prods-24-title ***/
 
 #_lp_block_11351402[data-block-layout='1611861'] .lp-prods-24-title {
-    color: rgba(34,34,34,1);
-    font-size: 40px;
+    color: rgb(0 132 87);
+    font-size: 55px;
     text-align: left;
     text-align-last: left;
     font-weight: 700;
@@ -71,7 +71,7 @@
 
 #_lp_block_11351402[data-block-layout='1611861'] .lp-prods-24-text {
     color: rgba(34,34,34,1);
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     text-align-last: left;
     font-weight: 300;
@@ -86,10 +86,9 @@
 
 #_lp_block_11389802[data-block-layout='1568461'] .features-item__icon {
     background-attachment: scroll;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-color: rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*** End css of #_lp_block_11389802[data-block-layout='1568461'] .features-item__icon ***/
@@ -99,8 +98,8 @@
 #_lp_block_11389802[data-block-layout='1568461'] .features-item__title {
     color: rgba(34,34,34,1);
     font-size: 20px;
-    text-align: left;
-    text-align-last: left;
+    text-align: center;
+    text-align-last: center;
     font-weight: 600;
     text-decoration: none;
     line-height: 150%;
@@ -126,7 +125,7 @@
 
 #_lp_block_11389802[data-block-layout='1568461'] .features-header__title {
     color: rgba(0,0,0,1);
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
     text-align-last: left;
     font-weight: 600;
@@ -201,15 +200,17 @@
 /*** Start css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__button ***/
 
 #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__button {
+    box-shadow: 0 5px 18px 4px rgba(4,155,106,1);
     color: rgba(255,255,255,1);
     font-size: 18px;
     text-align: center;
     text-align-last: center;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
     line-height: 100%;
-    font-family: Oswald, sans-serif;
+    font-family: Jost, sans-serif;
     font-style: normal;
+    background: linear-gradient(26deg, rgba(26,51,109,1) , rgba(4,155,106,1) );
 }
 #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__button:hover {
     color: rgb(255, 255, 255);
@@ -221,6 +222,7 @@
     line-height: 100%;
     font-family: Oswald, sans-serif;
     font-style: normal;
+    background: linear-gradient(26deg, rgba(26,51,109,1) , rgba(4,155,106,1) );
 }
 #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__button:active {
     color: rgb(235, 235, 235);
@@ -258,7 +260,7 @@
     background-image: none;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: rgba(251,251,251,1);
+    background-color: white;
 }
 
 /*** End css of #_lp_block_11350202[data-block-layout='1414661'] .lp-block-overlay ***/
@@ -387,8 +389,7 @@
 /*** End css of #_lp_block_11351202[data-block-layout='1562261'] .lp-advantages-16__title ***/
 /*** Start css of #_lp_block_11351202[data-block-layout='1562261'] .lp-advantages-16-item ***/
 
-#_lp_block_11351202[data-block-layout='1562261'] .lp-advantages-16-item {
-}
+#_lp_block_11351202[data-block-layout='1562261'] .lp-advantages-16-item {box-shadow: 0 0 30px -20px #30ab83;}
 
 /*** End css of #_lp_block_11351202[data-block-layout='1562261'] .lp-advantages-16-item ***//*** Start css of #_lp_block_11351402[data-block-layout='1611861'] .lp-block-bg ***/
 
@@ -416,7 +417,7 @@
 
 #_lp_block_11389802[data-block-layout='1568461'] .features-header__text {
     color: rgba(34,34,34,1);
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
     text-align-last: left;
     font-weight: 300;
@@ -433,7 +434,7 @@
     border-top-right-radius: 500px;
     border-bottom-left-radius: 500px;
     border-bottom-right-radius: 500px;
-    border-color: rgba(167,167,167,1);
+    border-color: rgb(2 113 117 / 43%);
     border-style: solid;
     border-width: 2px;
     color: rgba(0,0,0,1);
@@ -456,7 +457,7 @@
     background-image: none;
     background-position: 0% 0%;
     background-repeat: no-repeat;
-    background-color: rgba(78,78,78,1);
+    background-color: rgb(2 113 117 / 43%);
 }
 
 
@@ -467,7 +468,7 @@
     background-image: none;
     background-position: 0% 0%;
     background-repeat: no-repeat;
-    background-color: rgba(215,215,215,1);
+    background-color: rgba(4,155,106,1);
 }
 
 
@@ -526,6 +527,12 @@
     font-family: Jost, sans-serif;
     font-style: normal;
 }
+
+.lp-features-item.s3-animator-fadeInUp.s3-animator {
+    padding-bottom: 30px;
+    box-shadow: 0 0 30px -20px #30ab83;
+}
+
 #_lp_block_11350402[data-block-layout='1433261'] .lp-button--type-1:hover {
     background: rgb(46, 71, 129);
     background: -moz-linear-gradient(26deg, rgb(46, 71, 129) , rgb(24, 175, 126));
