@@ -21,7 +21,7 @@ $(function(){
 
 	    	$popup.css('top', popupTop);
 
-			$menu.clone().prependTo($topMenuWrap);
+			// $menu.clone().prependTo($topMenuWrap);
 
 			$(this).append('<div class="lp-menu-block-bg"></div>');
 
