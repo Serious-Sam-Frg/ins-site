@@ -3943,6 +3943,17 @@ li.lp-menu-1-burger__item {
     margin-bottom: 24px;
 }
 
+.lp-features-19 .lp-features-item__inner {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 30px -20px #30ab83;
+    height: 100%;
+}
+
 .lp-features-19 .lp-features-item:last-child {
 }
 
@@ -4054,6 +4065,63 @@ li.lp-menu-1-burger__item {
         padding: 80px 0;
     }
 
+    .lp-features-wrap {
+        display: flex;
+    }
+
+    .lp-features-header {
+        order: 2;
+        margin-left: 32px;
+        width: 50%;
+    }
+
+    .lp-features-19 .lp-features-items {
+        width: 50%;
+        order: 1;
+        margin: 0;
+        display: grid;
+        grid-gap: 10px 10px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .lp-features-19 .lp-features-item {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: none;
+    }
+
+    .lp-features-19 .lp-features-item__inner {
+        height: auto;
+    }
+
+    .lp-features-19 .features-item__icon {
+        padding: 0;
+    }
+
+    .lp-features-19 .lp-features-item__inner:hover .features-item__title {
+        color: #fff;
+    }
+
+
+    .lp-features-19 .lp-features-item:first-child {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 3;
+        grid-column-end: 2;
+    }
+
+    .lp-features-19 .lp-features-item:last-child {
+        grid-row-start: 1;
+        grid-column-start: 3;
+        grid-row-end: 3;
+        grid-column-end: 4;
+    }
+
     .lp-features-19 .features-header__text {
         margin-top: 16px;
     }
@@ -4063,13 +4131,6 @@ li.lp-menu-1-burger__item {
 }
 
 @media all and (min-width: 1380px) {
-    .lp-features-19 .lp-features-items {
-        margin: 0 -16px;
-    }
-    .lp-features-19 .lp-features-item {
-        width: calc(25% - 32px);
-        margin: 0 16px 32px;
-    }
 
     .lp-features-19 .lp-features-header {
         margin-bottom: 30px;
