@@ -168,7 +168,6 @@
 /*** End css of #_lp_block_11393802[data-block-layout='1711661'] .lp-steps-16-item__title ***//*** Start css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-6__title ***/
 
 #_lp_block_11394002[data-block-layout='1551661'] .lp-form-6__title {
-    color: rgba(34,34,34,1);
     font-size: 40px;
     text-align: center;
     text-align-last: center;
@@ -184,7 +183,6 @@
 /*** Start css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-6__subtitle ***/
 
 #_lp_block_11394002[data-block-layout='1551661'] .lp-form-6__subtitle {
-    color: rgba(34,34,34,1);
     font-size: 20px;
     text-align: center;
     text-align-last: center;
@@ -198,17 +196,6 @@
 /*** End css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-6__subtitle ***/
 /*** Start css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__item-label ***/
 
-#_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__item-label {
-    color: rgba(34,34,34,1);
-    font-size: 14px;
-    text-align: left;
-    text-align-last: left;
-    font-weight: 300;
-    text-decoration: none;
-    line-height: 100%;
-    font-family: Jost, sans-serif;
-    font-style: normal;
-}
 
 /*** End css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__item-label ***/
 /*** Start css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__button ***/
@@ -249,18 +236,6 @@
 
 /*** End css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__button ***/
 /*** Start css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__field-checkbox--text ***/
-
-#_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__field-checkbox--text {
-    color: rgba(34,34,34,1);
-    font-size: 12px;
-    text-align: left;
-    text-align-last: left;
-    font-weight: 300;
-    text-decoration: none;
-    line-height: 118%;
-    font-family: Jost, sans-serif;
-    font-style: normal;
-}
 
 /*** End css of #_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__field-checkbox--text ***//*** Start css of #_lp_block_11350202[data-block-layout='1414661'] .lp-block-bg ***/
 
@@ -484,9 +459,6 @@
     background-color: rgba(78,78,78,1);
 }
 
-.lp-advantages-16 .lp-advantages-16-item__icon svg path:not([fill]) {
-    fill: #027175;
-}
 
 /*** End css of #_lp_block_11393802[data-block-layout='1711661'] .lp-steps-16-item_line ***//*** Start css of #_lp_block_11389802[data-block-layout='1568461'] .lp-features-header-line ***/
 

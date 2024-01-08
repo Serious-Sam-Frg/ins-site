@@ -1450,6 +1450,19 @@ body ._header_inserted .header {
     color: #354e9a;
 }
 
+@media all and (max-width: 959px) {
+    .footer-menu ul {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width: 599px) {
+    .footer-menu ul {
+        column-count: 1;
+    }
+}
+
+
 
 
 .svg-icon-dark path {
@@ -3068,6 +3081,12 @@ div.modal {z-index: 1002 !important;}
 	padding: 48px 0;
 }
 
+.lp-form-6 .lp-wrapp {
+	padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(0,80,90) 0%,rgb(0,147,157) 100%);
+}
+
 .lp-form-6__title-wrapper {
 	text-align: center;
 	padding-bottom: 48px;
@@ -3080,8 +3099,32 @@ div.modal {z-index: 1002 !important;}
 .lp-form-6 .lp-form-tpl__button .lp-button__text {min-width: 160px;}
 
 .lp-form-6__title, .lp-form-6__subtitle {
+    color: #fff;
 	padding: 0;
 	margin: 0;
+}
+.lp-form-6 .lp-form-tpl__item-label {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    text-align-last: left;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 100%;
+    font-family: Jost, sans-serif;
+    font-style: normal;
+}
+
+#_lp_block_11394002[data-block-layout='1551661'] .lp-form-tpl__field-checkbox--text {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    text-align-last: left;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 118%;
+    font-family: Jost, sans-serif;
+    font-style: normal;
 }
 
 .lp-form-6__title + .lp-form-6__subtitle {
@@ -3625,7 +3668,7 @@ li.lp-menu-1-burger__item {
     height: 100%;
   }
   .lp-advantages-16 .lp-advantages-16-item__icon svg path:not([fill]) {
-    fill: var(--primary-color-base);
+    fill: #049b6a;
   }
   .lp-advantages-16 .lp-advantages-16-item__icon img {
     max-height: 100%;
