@@ -1,6 +1,43 @@
 $(function(){
 
 
+    function brandsSlider() {
+        var slider = document.querySelector('.site-brands__items');
+        var respSettings = {
+            0: {items: 2, gutter: 20},
+            640: {items: 4, gutter: 20},
+            768: {items: 4, gutter: 30},
+            1024: {items: 5, gutter: 30},
+            1261: {items: 5, gutter: 30},
+            1280: {items: 6, gutter: 30}
+        };
+
+        if ($(slider).length) {
+            var multislider = tns({
+                loop: false,
+                rewind: true,
+                container: slider,
+                slideBy: 1,
+                autoplayHoverPause: true,
+                mode: 'carousel',
+                axis: 'horizontal',
+                autoplay: false,
+                autoplayButtonOutput: false,
+                mouseDrag: true,
+                center: false,
+                autoWidth: false,
+                nav: true,
+                swipeAngle: 50,
+                navPosition: 'bottom',
+                preventActionWhenRunning: false,
+                responsive: respSettings,
+                controls: false
+            });
+        };
+    }
+    brandsSlider();
+
+
     $(function(){
         var $self = $('.lp-menu-1');
 		var $block = $self.hasClass('js-menu-wrap') ? $self : $self.find('.js-menu-wrap');
